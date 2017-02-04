@@ -1,0 +1,55 @@
+
+{
+    "monsters" : [
+        {
+            "ID" : 0,
+            "MonsterName" : "Ghoul",
+            "SpriteName"  : "Enemy sprites",
+            "Description" : "Danger",
+            "Health"      : 750,
+            "Dodge"       : 10,
+            "Defence"     : 6,
+            "Damage"      : 24,
+            "PrepareTime" : 5.0,
+            "SwingTime"   : 1,
+            "rewards"     : [
+                {
+                    "item_ID" : 4,
+                    "Chance_To_Get" : 10,
+                    "Priority"      : 1,
+                    "Max_Count"     : 1
+                },
+                {
+                    "item_ID" : 2,
+                    "Chance_To_Get" : 20,
+                    "Priority"      : 2,
+                    "Max_Count"     : 2
+                },
+                {
+                    "item_ID" : 5,
+                    "Chance_To_Get" : 20,
+                    "Priority"      : 2,
+                    "Max_Count"     : 2
+                },
+                {
+                    "item_ID" : 1,
+                    "Chance_To_Get" : 10,
+                    "Priority"      : 3,
+                    "Max_Count"     : 2
+                },
+                {
+                    "item_ID" : 3,
+                    "Chance_To_Get" : 10,
+                    "Priority"      : 3,
+                    "Max_Count"     : 2
+                },
+                {
+                    "item_ID" : 11,
+                    "Chance_To_Get" : 20,
+                    "Priority"      : 4,
+                    "Max_Count"     : 2
+                }
+            ]
+        }
+    ]
+}

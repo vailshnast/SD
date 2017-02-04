@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{13AAFE88-194F-37A5-936D-0C7B2613D593}") = "SD.git", "Assembly-CSharp.csproj", "{8418B154-2EE6-3DC1-6CDE-C54CCB084C5E}"
+EndProject
+Project("{13AAFE88-194F-37A5-936D-0C7B2613D593}") = "SD.git", "Assembly-CSharp-Editor.csproj", "{9552EC27-F102-C700-B4CB-C9974510BDED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8418B154-2EE6-3DC1-6CDE-C54CCB084C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8418B154-2EE6-3DC1-6CDE-C54CCB084C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8418B154-2EE6-3DC1-6CDE-C54CCB084C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8418B154-2EE6-3DC1-6CDE-C54CCB084C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9552EC27-F102-C700-B4CB-C9974510BDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9552EC27-F102-C700-B4CB-C9974510BDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9552EC27-F102-C700-B4CB-C9974510BDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9552EC27-F102-C700-B4CB-C9974510BDED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

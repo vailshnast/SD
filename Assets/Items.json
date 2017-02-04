@@ -1,0 +1,226 @@
+
+{
+    "items" : [
+        {
+            "ID" : 0,
+            "Slug" : "void",
+            "Group" : "0",
+            "Title" : "",
+            "Description" : "",
+            "Price"       : 0,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 1,
+            "Slug" : "scroll",
+            "Group" : "Scroll",
+            "Title" : "Rune Scroll",
+            "Description" : "Use to identify rune",
+            "Price"       : 100,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 2,
+            "Slug" : "potion",
+            "Group" : "Potion",
+            "Title" : "Health Potion",
+            "Description" : "Restore 25 health",
+            "Price"       : 250,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 25,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 3,
+            "Slug" : "oil",
+            "Group" : "Torch",
+            "Title" : "Torch oil",
+            "Description" : "Gives 5 torch charges",
+            "Price"       : 100,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 4,
+            "Slug" : "rune",
+            "Group" : "Rune",
+            "Title" : "Rune",
+            "Description" : "Mysterious rune",
+            "Price"       : 1000,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 5,
+            "Slug" : "potionMana",
+            "Group" : "Potion",
+            "Title" : "Mana Potion",
+            "Description" : "Restore 25 mana",
+            "Price"       : 250,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 25,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 6,
+            "Slug" : "jo",
+            "Group" : "Rune",
+            "Title" : "Jo Rune",
+            "Description" : "+10 health",
+            "Price"       : 0,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 10,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 7,
+            "Slug" : "yok",
+            "Group" : "Rune",
+            "Title" : "Yok Rune",
+            "Description" : "+3 defence",
+            "Price"       : 0,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 3,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 8,
+            "Slug" : "rab",
+            "Group" : "Rune",
+            "Title" : "Rab Rune",
+            "Description" : "+5 damage",
+            "Price"       : 0,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 5,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 9,
+            "Slug" : "doo",
+            "Group" : "Rune",
+            "Title" : "Doo Rune",
+            "Description" : "+75% power",
+            "Price"       : 0,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 75
+            }
+        },
+        {
+            "ID" : 10,
+            "Slug" : "zo",
+            "Group" : "Rune",
+            "Title" : "Zo Rune",
+            "Description" : "+5 damage\n+50% power",
+            "Price"       : 0,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 5,
+                "Magic"   : 0,
+                "Power"   : 50
+            }
+        },
+        {
+            "ID" : 11,
+            "Slug" : "Treasure",
+            "Group" : "Treasure",
+            "Title" : "Treasure",
+            "Description" : "You can sell it\nFor some gold",
+            "Price"       : 200,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        },
+        {
+            "ID" : 12,
+            "Slug" : "Lockpick",
+            "Group" : "Lockpick",
+            "Title" : "Lockpick",
+            "Description" : "Use to lock pick\na chest",
+            "Price"       : 200,
+            "Stackable"   : false,
+            "stats"       : {
+                "Health" : 0,
+                "Mana"   : 0,
+                "Defence" : 0,
+                "Damage"  : 0,
+                "Magic"   : 0,
+                "Power"   : 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+{
+    "Name" : "Default",
+    "Class_hero" : "Warrior",
+    "Health"     : {
+        "value" : 125,
+        "name"  : "Health"
+    },
+    "Health_Current" : {
+        "value" : 125,
+        "name"  : null
+    },
+    "Mana"           : {
+        "value" : 20,
+        "name"  : "Mana"
+    },
+    "Mana_Current"   : {
+        "value" : 20,
+        "name"  : null
+    },
+    "Damage"         : {
+        "value" : 24,
+        "name"  : "Damage"
+    },
+    "Defence"        : {
+        "value" : 6,
+        "name"  : "Defence"
+    },
+    "Power"          : {
+        "value" : 400,
+        "name"  : "Power"
+    },
+    "Magic"          : {
+        "value" : 100,
+        "name"  : "Magic"
+    },
+    "Gold_Quantity"  : 1000,
+    "Torch_Quantity" : 100,
+    "List_Runes"     : [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "List_Items"     : [
+        12,
+        12,
+        12,
+        12
+    ],
+    "stats"          : null
+}

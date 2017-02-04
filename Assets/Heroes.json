@@ -1,0 +1,277 @@
+
+{
+    "heroes" : [
+        {
+            "ID" : 0,
+            "Slug" : "HeroWar_0",
+            "Title" : "Warrior",
+            "Description" : "SimpleText",
+            "Health"      : {
+                "value" : 125
+            },
+            "Mana"        : {
+                "value" : 20
+            },
+            "Defence"     : {
+                "value" : 6
+            },
+            "Damage"      : {
+                "value" : 24
+            },
+            "Power"       : {
+                "value" : 400
+            },
+            "Magic"       : {
+                "value" : 100
+            },
+            "Starting_Gold" : 1000,
+            "RuneSlots"     : 6,
+            "Items"         : [12,12,12,12
+            ],
+            "Hero_Skills"   : [
+                {
+                    "Name" : "Mana Splash",
+                    "Description" : "Deals fixed damage that is strengthened by Magic.Resets attack phase.",
+                    "Parameters"  : [
+                        {
+                            "Name" : "Manacost: ",
+                            "Value" : "15"
+                        },
+                        {
+                            "Name" : "Damage: ",
+                            "Value" : "50"
+                        }
+                    ],
+                    "SkillSpriteName" : "ManaSplash",
+                    "SymbolSpriteName" : "ManaSplashSymbol"
+                },
+                {
+                    "Name" : "Discharge",
+                    "Description" : "Consumes all your current mana and deals damage proportionally to amount of consumed mana, strengthened by Magic.Resets attack phase.",
+                    "Parameters"  : [
+                        {
+                            "Name" : "Manacost: ",
+                            "Value" : "100%"
+                        },
+                        {
+                            "Name" : "Magic Modifire: ",
+                            "Value" : "3x"
+                        }
+                    ],
+                    "SkillSpriteName" : "Discharge",
+                    "SymbolSpriteName" : "DischargeSymbol"
+                },
+                {
+                    "Name" : "Mana Leak",
+                    "Description" : "Hero is granted with a buff, that grants mana for every successful attack up to 1 phase cycle duration. Successful finalblow with buff restores 10 mana, and damage will be magic.",
+                    "Parameters"  : [
+                        {
+                            "Name" : "Manacost: ",
+                            "Value" : "5"
+                        },
+                        {
+                            "Name" : "Duration: ",
+                            "Value" : "1 cycle"
+                        },
+                        {
+                            "Name" : "Finalblow modifire: ",
+                            "Value" : "Magic"
+                        }
+                    ],
+                    "SkillSpriteName" : "ManaLeak",
+                    "SymbolSpriteName" : "ManaLeakSymbol"
+                },
+                {
+                    "Name" : "Mana Regeneration",
+                    "Description" : "Regenerates 2 mana after 1 cycle",
+                    "Parameters"  : [
+                    ],
+                    "SkillSpriteName" : "Passive",
+                    "SymbolSpriteName" : "Passive"
+                }
+            ]
+        },
+        {
+            "ID" : 1,
+            "Slug" : "HeroMage_0",
+            "Title" : "Mage",
+            "Description" : "SimpleText",
+            "Health"      : {
+                "value" : 50
+            },
+            "Mana"        : {
+                "value" : 120
+            },
+            "Defence"     : {
+                "value" : 1
+            },
+            "Damage"      : {
+                "value" : 7
+            },
+            "Power"       : {
+                "value" : 125
+            },
+            "Magic"       : {
+                "value" : 400
+            },
+            "Starting_Gold" : 1000,
+            "RuneSlots"     : 5,
+            "Items"         : [
+                5,
+                5
+            ],
+            "Hero_Skills"   : [
+                {
+                    "Name" : "Mana Splash",
+                    "Description" : "Deals fixed damage that is strengthened by Magic.Resets attack phase.",
+                    "Parameters"  : [
+                        {
+                            "Name" : "Manacost: ",
+                            "Value" : "15"
+                        },
+                        {
+                            "Name" : "Damage: ",
+                            "Value" : "50"
+                        }
+                    ],
+                    "SkillSpriteName" : "ManaSplash",
+                    "SymbolSpriteName" : "ManaSplashSymbol"
+                },
+                {
+                    "Name" : "Discharge",
+                    "Description" : "Consumes all your current mana and deals damage proportionally to amount of consumed mana, strengthened by Magic.Resets attack phase.",
+                    "Parameters"  : [
+                        {
+                            "Name" : "Manacost: ",
+                            "Value" : "100%"
+                        },
+                        {
+                            "Name" : "Magic Modifire: ",
+                            "Value" : "3x"
+                        }
+                    ],
+                    "SkillSpriteName" : "Discharge",
+                    "SymbolSpriteName" : "DischargeSymbol"
+                },
+                {
+                    "Name" : "Mana Leak",
+                    "Description" : "Hero is granted with a buff, that grants mana for every successful attack up to 1 phase cycle duration. Successful finalblow with buff restores 10 mana, and damage will be magic.",
+                    "Parameters"  : [
+                        {
+                            "Name" : "Manacost: ",
+                            "Value" : "5"
+                        },
+                        {
+                            "Name" : "Duration: ",
+                            "Value" : "1 cycle"
+                        },
+                        {
+                            "Name" : "Finalblow modifire: ",
+                            "Value" : "Magic"
+                        }
+                    ],
+                    "SkillSpriteName" : "ManaLeak",
+                    "SymbolSpriteName" : "ManaLeakSymbol"
+                },
+                {
+                    "Name" : "Mana Regeneration",
+                    "Description" : "Regenerates 2 mana after 1 cycle",
+                    "Parameters"  : [
+                    ],
+                    "SkillSpriteName" : "Passive",
+                    "SymbolSpriteName" : "Passive"
+                }
+            ]
+        },
+        {
+            "ID" : 2,
+            "Slug" : "HeroCena_0",
+            "Title" : "JOHN CENA",
+            "Description" : "AND HIS NAME IS",
+            "Health"      : {
+                "value" : 200
+            },
+            "Mana"        : {
+                "value" : 250
+            },
+            "Defence"     : {
+                "value" : 150
+            },
+            "Damage"      : {
+                "value" : 400
+            },
+            "Power"       : {
+                "value" : 210
+            },
+            "Magic"       : {
+                "value" : 250
+            },
+            "Starting_Gold" : 1000,
+            "RuneSlots"     : 6,
+            "Items"         : [
+            ],
+            "Hero_Skills"   : [
+                {
+                    "Name" : "Mana Splash",
+                    "Description" : "Deals fixed damage that is strengthened by Magic.Resets attack phase.",
+                    "Parameters"  : [
+                        {
+                            "Name" : "Manacost: ",
+                            "Value" : "15"
+                        },
+                        {
+                            "Name" : "Damage: ",
+                            "Value" : "50"
+                        }
+                    ],
+                    "SkillSpriteName" : "ManaSplash",
+                    "SymbolSpriteName" : "ManaSplashSymbol"
+                },
+                {
+                    "Name" : "Discharge",
+                    "Description" : "Consumes all your current mana and deals damage proportionally to amount of consumed mana, strengthened by Magic.Resets attack phase.",
+                    "Parameters"  : [
+                        {
+                            "Name" : "Manacost: ",
+                            "Value" : "100%"
+                        },
+                        {
+                            "Name" : "Magic Modifire: ",
+                            "Value" : "3x"
+                        }
+                    ],
+                    "SkillSpriteName" : "Discharge",
+                    "SymbolSpriteName" : "DischargeSymbol"
+                },
+                {
+                    "Name" : "Mana Leak",
+                    "Description" : "Hero is granted with a buff, that grants mana for every successful attack up to 1 phase cycle duration. Successful finalblow with buff restores 10 mana, and damage will be magic.",
+                    "Parameters"  : [
+                        {
+                            "Name" : "Manacost: ",
+                            "Value" : "5"
+                        },
+                        {
+                            "Name" : "Duration: ",
+                            "Value" : "1 cycle"
+                        },
+                        {
+                            "Name" : "Finalblow modifire: ",
+                            "Value" : "Magic"
+                        }
+                    ],
+                    "SkillSpriteName" : "ManaLeak",
+                    "SymbolSpriteName" : "ManaLeakSymbol"
+                },
+                {
+                    "Name" : "Mana Regeneration",
+                    "Description" : "Regenerates 2 mana after 1 cycle",
+                    "Parameters"  : [
+                    ],
+                    "SkillSpriteName" : "Passive",
+                    "SymbolSpriteName" : "Passive"
+                }
+            ]
+        }
+    ]
+}

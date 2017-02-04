@@ -1,0 +1,17 @@
+
+{
+    "OnClick_Time_To_Appear" : {
+        "Min" : 0.25,
+        "Max" : 0.5
+    },
+    "Static_Time_To_Appear"  : {
+        "Min" : 0.66,
+        "Max" : 1.0
+    },
+    "Static_Time_To_Dissappear" : {
+        "Min" : 10.0,
+        "Max" : 10.0
+    },
+    "Starting_Torches_Count"    : 100,
+    "Target_Count"              : 5
+}
